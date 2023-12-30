@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Your Pizza Delivery</title>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="2306.jpg" alt="Your Pizza Delivery Logo">
+    </div>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#specials">Specials</a>
+    <a href="#order">Order Online</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<!-- Placeholder content for each section -->
+<section id="home">
+    <h2>Welcome to Your Pizza Delivery Service</h2>
+    <p>Indulge in the finest pizza delivered to your doorstep. Quality ingredients, exceptional taste.</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <p>Explore our diverse menu featuring a variety of pizzas, sides, and drinks.</p>
+    <ul>
+        <li>Classic Margherita</li>
+        <li>Pepperoni Feast</li>
+        <li>Veggie Delight</li>
+        <!-- Add more items as needed -->
+    </ul>
+</section>
+
+<section id="specials">
+    <h2>Specials</h2>
+    <p>Discover our special offers and discounts for a delightful pizza experience.</p>
+    <div>
+        <h3>Weekend Special</h3>
+        <p>Get 50% off on all large pizzas every Friday and Saturday.</p>
+    </div>
+    <div>
+        <h3>Combo Deal</h3>
+        <p>Order a pizza and any side to enjoy a special combo deal at a discounted price.</p>
+    </div>
+</section>
+
+<section id="order">
+    <h2>Order Online</h2>
+    <p>Place your order online and experience the convenience of our quick and reliable delivery service.</p>
+    <button>Order Now</button>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or feedback? Reach out to our customer support team.</p>
+    <address>
+        Email: info@yourpizzadelivery.com<br>
+        Phone: (123) 456-7890
+    </address>
+</section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+</script>
+
+    1
+
+</body>
+</html>
